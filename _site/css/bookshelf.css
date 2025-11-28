@@ -181,6 +181,9 @@
     color: goldenrod;
     bottom: 0px;
     left: 20%; /* no idea why 20% centers it */
+    writing-mode: vertical-lr;
+    margin-left: 20px;
+    margin-bottom: 5px;
   }
   
   .top {

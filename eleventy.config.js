@@ -1,6 +1,8 @@
 export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./css/bundle.css");
   eleventyConfig.addPassthroughCopy("./css/bookshelf.css");
+  eleventyConfig.addPassthroughCopy("./scripts/bookshelf.js");
+  eleventyConfig.addPassthroughCopy("./scripts/cssUtils.js");
 };
 
 export const config = {
